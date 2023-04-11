@@ -15,5 +15,5 @@ function connectForm(formId, formSubmitHandler) {
     const form = document.getElementById(formId);
     form.addEventListener('submit', formSubmitHandler);
   }
-  
-  connectForm('Calculation', View);
+
+  connectForm('Calculation', View);  
